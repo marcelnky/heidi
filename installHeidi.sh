@@ -13,8 +13,6 @@ mkdir vendor/aiml/botdata/standard
 cp examples/example.db db/heidi.db
 cp examples/.env_example ./.env
 
-rm -r examples/
-
 virtualenv -p python3 env
 source env/bin/activate
 
